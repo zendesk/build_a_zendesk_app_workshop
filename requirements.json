@@ -1,0 +1,9 @@
+{
+  "user_fields": {
+    "bookmark_app_custom_field": {
+      "type": "text",
+      "key": "bookmark_app_custom_field",
+      "title": "Bookmark App Custom Field"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Zendesk Garden CSS Components via JSDeliver CDN -->
+    <link href="https://cdn.jsdelivr.net/combine/npm/@zendeskgarden/css-bedrock,npm/@zendeskgarden/css-utilities" rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+    <div class="ticket-list-dashboard u-mb-xs"></div>
+
+    <!-- ZAF SDK for developers to use Zendesk App Framework -->
+    <script id='zaf_sdk' type="text/javascript" src="https://assets.zendesk.com/apps/sdk/2.0/zaf_sdk.js"></script>
+    <script>
+      const client = ZAFClient.init()
+      client.invoke('resize', { height: 300 })
+
+      const ticketListDashboard = document.querySelector('.ticket-list-dashboard')
+
+
+      // --- Start adding your code below this line --- //
+
+    </script>
+  </body>
+</html>

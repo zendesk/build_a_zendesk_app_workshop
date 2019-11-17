@@ -1,0 +1,17 @@
+{
+  "name": "#{your_awesome_name}'s Bookmark App",
+  "author": {
+    "name": "your_awesome_name",
+    "email": "your_awesome_email"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_sidebar": "assets/sidebar.html",
+      "top_bar": "assets/topbar.html"
+    }
+  },
+  "version": "1.0",
+  "frameworkVersion": "2.0"
+}
